@@ -104,3 +104,6 @@ dist
 .tern-port
 
 # Stores VSCode ver
+
+# ignore security token
+src/config/auth.js
