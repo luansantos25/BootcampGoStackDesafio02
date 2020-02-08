@@ -1,0 +1,6 @@
+// create auth.js with content:
+
+export default {
+  secret: '',
+  expiresIn: '7d',
+};
