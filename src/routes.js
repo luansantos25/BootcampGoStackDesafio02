@@ -13,9 +13,7 @@ routes.post('/users', UserController.store);
 
 routes.use(authMiddlewares);
 
-routes.put('/users', (req, res) => {
-  return res.json({ test: 'todo' });
-});
+routes.put('/users', UserController.update);
 
 routes.post('/recipients', RecipientController.store);
 routes.put('/recipients/:id', RecipientController.update);
